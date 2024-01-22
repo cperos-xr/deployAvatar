@@ -22,7 +22,7 @@ export const Experience = ({ heroRef }) => {
           {/* Rapier triangler collider for stage */}
           <RigidBody friction={2} colliders="trimesh" type="fixed">
             <Model />
-            <Dome position={[10, -.6, 0]}/>
+            <Dome position={[10, -.7, 0]}/>
           </RigidBody>
         </group>
       </Manager>
